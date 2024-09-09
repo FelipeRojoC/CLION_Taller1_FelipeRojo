@@ -1,31 +1,62 @@
 @startuml
 
 left to right direction
-!theme amiga
 
-entity Tablero{
+class Tablero{
+    - filas: int
+    - columnas: int
+    + colocarFicha(ficha: Ficha, fila: int, columna: int): void
+    + moverFicha(ficha: Ficha, nuevaFila: int, nuevaColumna: int): void
 }
 
-entity Fichas{
-    - puntosSalud
-    - danio
-    - defensa
-    - rango
+abstract Ficha{
+    - puntosSalud: int
+    - danio: int
+    - defensa: int
+    - rango: int
+    + desmayar(): void
+    + atacar(): void
 }
 
-entity TurnoJugador{
+class Arquero{
+    +ataqueEspecial(): void
 }
 
-entity TurnoEnemigo{
+class Mago{
+    +ataqueEspecial(): void
 }
 
-entity CondicionVictoria{
+class Tanque{
+    +ataqueEspecial(): void
 }
 
-entity SistemaPuntuacion{
+class Espadachin{
+    +ataqueEspecial(): void
 }
 
-entity Estadisticas{
+class TurnoJugador{
+    - tablero: Tablero
+    + prepararTurno(): void
+    + seleccionarAtaque(ficha: Ficha, tipo: String): void
+    + avanzarFaseCombate(): void
+}
+
+class TurnoEnemigo{
+    - tablero: Tablero
+    + ejecutarAtaques(): void
+}
+
+
+class Estadisticas{
+
+
+}
+
+interface ISistemaPuntuacion{
+    + iniciarJuego(): void
+    + cargarMapa(): void
+    + cambiarPosicionFichas(): void
+    + mostrarMenuEstadisticas(): void
 }
 
 'Notas
@@ -33,13 +64,18 @@ note "Se tienen que tener dos tableros, un jugador y un enemigo" as N1
 note "Cada tablero esta confirmado por 4 filas y 3 columnas" as N2
 note "Deben ser matrices poco pobladas" as N3
 note "Cuando una unidad se desmaya la casilla queda bloqueada" as N4
-note "Existen 4 tipos de fichas, arquero, mago, tanque y espadachin" as N5
 
-'Relaciones
+'Relaciones de notas
 Tablero -- N1
 Tablero -- N2
 Tablero -- N3
 Tablero -- N4
-Fichas -- N5
+
+'Relaciones
+Ficha <|-- Arquero
+Ficha <|-- Mago
+Ficha <|-- Tanque
+Ficha <|-- Espadachin
+
 
 @enduml
