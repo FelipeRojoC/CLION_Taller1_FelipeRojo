@@ -1,0 +1,45 @@
+@startuml
+
+left to right direction
+!theme amiga
+
+entity Tablero{
+}
+
+entity Fichas{
+    - puntosSalud
+    - danio
+    - defensa
+    - rango
+}
+
+entity TurnoJugador{
+}
+
+entity TurnoEnemigo{
+}
+
+entity CondicionVictoria{
+}
+
+entity SistemaPuntuacion{
+}
+
+entity Estadisticas{
+}
+
+'Notas
+note "Se tienen que tener dos tableros, un jugador y un enemigo" as N1
+note "Cada tablero esta confirmado por 4 filas y 3 columnas" as N2
+note "Deben ser matrices poco pobladas" as N3
+note "Cuando una unidad se desmaya la casilla queda bloqueada" as N4
+note "Existen 4 tipos de fichas, arquero, mago, tanque y espadachin" as N5
+
+'Relaciones
+Tablero -- N1
+Tablero -- N2
+Tablero -- N3
+Tablero -- N4
+Fichas -- N5
+
+@enduml
