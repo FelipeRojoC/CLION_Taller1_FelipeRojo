@@ -18,6 +18,28 @@ abstract Ficha{
     + atacar(): void
 }
 
+class NodoFicha{
+    + ficha: Ficha
+    + left: NodoFicha*
+    + up: NodoFicha*
+    + fila: int
+    + columna: int
+    + NodoFicha(ficha: Ficha*, posicionFila: int, posicionColumna: int)
+    + ~NodoFicha()
+}
+
+class MatrizPocoPoblada{
+    - a_Fil: NodoFicha*
+    - a_Col: NodoFicha*
+    - fila: int
+    - columna: int
+    + mpp(nFill: int, nCol: int)
+    + ~mpp()
+    + buscarFicha(ficha: Ficha*, fila: int, columna:int): boolean
+    + eliminarFicha(): boolean
+    + agregarFicha(): boolean
+}
+
 class Arquero{
     +ataqueEspecial(): void
 }
@@ -49,6 +71,9 @@ class TurnoEnemigo{
 
 class Estadisticas{
 
+}
+
+class SistemaPuntuacion{
 
 }
 
@@ -76,6 +101,10 @@ Ficha <|-- Arquero
 Ficha <|-- Mago
 Ficha <|-- Tanque
 Ficha <|-- Espadachin
+
+NodoFicha --> Ficha: contiene
+MatrizPocoPoblada --> NodoFicha: maneja
+
 
 
 @enduml
