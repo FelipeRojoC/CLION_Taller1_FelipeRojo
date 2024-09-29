@@ -10,6 +10,7 @@ class Tablero{
 }
 
 abstract Ficha{
+    - nombreFicha: String
     - puntosSalud: int
     - danio: int
     - defensa: int
@@ -40,21 +41,6 @@ class MatrizPocoPoblada{
     + agregarFicha(): boolean
 }
 
-class Arquero{
-    +ataqueEspecial(): void
-}
-
-class Mago{
-    +ataqueEspecial(): void
-}
-
-class Tanque{
-    +ataqueEspecial(): void
-}
-
-class Espadachin{
-    +ataqueEspecial(): void
-}
 
 class TurnoJugador{
     - tablero: Tablero

@@ -3,4 +3,6 @@ project(Taller1_FelipeRojo)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(Taller1_FelipeRojo main.cpp)
+add_executable(Taller1_FelipeRojo main.cpp
+        Model/Ficha.cpp
+        Model/Ficha.h)
