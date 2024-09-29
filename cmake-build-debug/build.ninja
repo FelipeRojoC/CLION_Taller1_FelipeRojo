@@ -79,6 +79,12 @@ build CMakeFiles/Taller1_FelipeRojo.dir/Model/MatrizPocoPoblada.cpp.obj: CXX_COM
   OBJECT_DIR = CMakeFiles\Taller1_FelipeRojo.dir
   OBJECT_FILE_DIR = CMakeFiles\Taller1_FelipeRojo.dir\Model
 
+build CMakeFiles/Taller1_FelipeRojo.dir/Model/Tablero.cpp.obj: CXX_COMPILER__Taller1_FelipeRojo_unscanned_Debug C$:/Users/felip/OneDrive/Escritorio/Estructura$ de$ Datos/Taller$ 1/Taller1_FelipeRojo/Model/Tablero.cpp || cmake_object_order_depends_target_Taller1_FelipeRojo
+  DEP_FILE = CMakeFiles\Taller1_FelipeRojo.dir\Model\Tablero.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Taller1_FelipeRojo.dir
+  OBJECT_FILE_DIR = CMakeFiles\Taller1_FelipeRojo.dir\Model
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Taller1_FelipeRojo
@@ -87,7 +93,7 @@ build CMakeFiles/Taller1_FelipeRojo.dir/Model/MatrizPocoPoblada.cpp.obj: CXX_COM
 #############################################
 # Link the executable Taller1_FelipeRojo.exe
 
-build Taller1_FelipeRojo.exe: CXX_EXECUTABLE_LINKER__Taller1_FelipeRojo_Debug CMakeFiles/Taller1_FelipeRojo.dir/main.cpp.obj CMakeFiles/Taller1_FelipeRojo.dir/Model/Ficha.cpp.obj CMakeFiles/Taller1_FelipeRojo.dir/Services/ISistemaJuego.cpp.obj CMakeFiles/Taller1_FelipeRojo.dir/Model/NodoFicha.cpp.obj CMakeFiles/Taller1_FelipeRojo.dir/Model/MatrizPocoPoblada.cpp.obj
+build Taller1_FelipeRojo.exe: CXX_EXECUTABLE_LINKER__Taller1_FelipeRojo_Debug CMakeFiles/Taller1_FelipeRojo.dir/main.cpp.obj CMakeFiles/Taller1_FelipeRojo.dir/Model/Ficha.cpp.obj CMakeFiles/Taller1_FelipeRojo.dir/Services/ISistemaJuego.cpp.obj CMakeFiles/Taller1_FelipeRojo.dir/Model/NodoFicha.cpp.obj CMakeFiles/Taller1_FelipeRojo.dir/Model/MatrizPocoPoblada.cpp.obj CMakeFiles/Taller1_FelipeRojo.dir/Model/Tablero.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Taller1_FelipeRojo.dir

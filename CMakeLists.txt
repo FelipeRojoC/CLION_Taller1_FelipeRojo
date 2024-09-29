@@ -11,4 +11,6 @@ add_executable(Taller1_FelipeRojo main.cpp
         Model/NodoFicha.cpp
         Model/NodoFicha.h
         Model/MatrizPocoPoblada.cpp
-        Model/MatrizPocoPoblada.h)
+        Model/MatrizPocoPoblada.h
+        Model/Tablero.cpp
+        Model/Tablero.h)

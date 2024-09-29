@@ -12,7 +12,6 @@ void leerFichas(const std::string& nombreArchivo) {
 
     std::string linea;
     while (std::getline(archivoFichas, linea)) {
-        // Aquí puedes procesar la línea leída
         std::cout << "Ficha leida: " << linea << std::endl;
     }
 
@@ -28,7 +27,6 @@ void leerEscenarios(const std::string& nombreArchivo) {
 
     std::string linea;
     while (std::getline(archivoEscenarios, linea)) {
-        //Aquí puedes procesar la línea leída
         std::cout << "Escenario leido: " << linea << std::endl;
     }
 
