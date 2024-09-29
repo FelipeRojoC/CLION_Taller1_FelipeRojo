@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/mrobl/Desktop/felipe/CLION_Taller1_FelipeRojo_MauricioRobles/cmake-build-debug"
+			"value" : "c:/Users/mrobl/Desktop/error/CLION_Taller1_FelipeRojo_MauricioRobles/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -559,7 +559,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/mrobl/Desktop/felipe/CLION_Taller1_FelipeRojo_MauricioRobles/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/mrobl/Desktop/error/CLION_Taller1_FelipeRojo_MauricioRobles/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -631,7 +631,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/mrobl/Desktop/felipe/CLION_Taller1_FelipeRojo_MauricioRobles"
+			"value" : "C:/Users/mrobl/Desktop/error/CLION_Taller1_FelipeRojo_MauricioRobles"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1267,7 +1267,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/mrobl/Desktop/felipe/CLION_Taller1_FelipeRojo_MauricioRobles/cmake-build-debug"
+			"value" : "C:/Users/mrobl/Desktop/error/CLION_Taller1_FelipeRojo_MauricioRobles/cmake-build-debug"
 		},
 		{
 			"name" : "Taller1_FelipeRojo_IS_TOP_LEVEL",
@@ -1291,7 +1291,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/mrobl/Desktop/felipe/CLION_Taller1_FelipeRojo_MauricioRobles"
+			"value" : "C:/Users/mrobl/Desktop/error/CLION_Taller1_FelipeRojo_MauricioRobles"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

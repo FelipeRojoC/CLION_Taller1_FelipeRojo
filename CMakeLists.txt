@@ -11,4 +11,13 @@ add_executable(Taller1_FelipeRojo main.cpp
         TurnoJugador.cpp
         TurnoEnemigo.cpp
         Estadisticas.cpp
-        SistemaJuego.cpp)
+        SistemaJuego.cpp
+        Tablero.h
+        MatrizPocoPoblada.h
+        NodoFicha.h
+        Ficha.h
+        TurnoJugador.h
+        TurnoEnemigo.h
+        Estadisticas.h
+        SistemaJuego.h
+        ISistemaJuego.h)

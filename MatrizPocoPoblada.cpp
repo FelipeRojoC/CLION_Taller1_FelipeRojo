@@ -29,10 +29,21 @@ Ficha* MatrizPocoPoblada::obtenerFicha(int fila, int columna) {
     return nodo ? nodo->getFicha() : nullptr;
 }
 //Metodo para buscar una ficha en la matriz
-bool MatrizPocoPoblada::buscarFicha(int fila, int columna) {
-    NodoFicha* nodo = buscarNodo(fila, columna);
-    return nodo != nullptr;
+NodoFicha* MatrizPocoPoblada::buscarFicha(int fila, int columna) {
+    // Lógica para buscar la ficha
+NodoFicha* current = nullptr; // TODO
+
+    // Lógica para iterar sobre la matriz
+    while (current != nullptr) {
+        if (current->getFila() == fila && current->getColumna() == columna) {
+            return current; // Retorna el nodo encontrado
+        }
+        current = current->getSiguiente(); // O como accedas al siguiente nodo
+    }
+
+    return nullptr; // Retorna nullptr si no se encuentra
 }
+
 
 //Metodo para agregar una ficha en la matriz
 bool MatrizPocoPoblada::agregarFicha(Ficha* ficha, int fila, int columna) {

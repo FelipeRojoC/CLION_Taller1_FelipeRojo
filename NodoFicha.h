@@ -35,6 +35,8 @@ public:
 
     NodoFicha* getUp() const;
     void setUp(NodoFicha* nodo);
+
+    NodoFicha * getSiguiente();
 };
 
 #endif // NODOFICHA_H

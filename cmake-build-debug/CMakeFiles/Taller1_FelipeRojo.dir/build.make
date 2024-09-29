@@ -52,10 +52,10 @@ RM = "D:\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles
+CMAKE_SOURCE_DIR = C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Taller1_FelipeRojo.dir/depend.make
@@ -69,130 +69,130 @@ include CMakeFiles/Taller1_FelipeRojo.dir/progress.make
 include CMakeFiles/Taller1_FelipeRojo.dir/flags.make
 
 CMakeFiles/Taller1_FelipeRojo.dir/main.cpp.obj: CMakeFiles/Taller1_FelipeRojo.dir/flags.make
-CMakeFiles/Taller1_FelipeRojo.dir/main.cpp.obj: C:/Users/mrobl/Desktop/felipe/CLION_Taller1_FelipeRojo_MauricioRobles/main.cpp
+CMakeFiles/Taller1_FelipeRojo.dir/main.cpp.obj: C:/Users/mrobl/Desktop/error/CLION_Taller1_FelipeRojo_MauricioRobles/main.cpp
 CMakeFiles/Taller1_FelipeRojo.dir/main.cpp.obj: CMakeFiles/Taller1_FelipeRojo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Taller1_FelipeRojo.dir/main.cpp.obj"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1_FelipeRojo.dir/main.cpp.obj -MF CMakeFiles\Taller1_FelipeRojo.dir\main.cpp.obj.d -o CMakeFiles\Taller1_FelipeRojo.dir\main.cpp.obj -c C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Taller1_FelipeRojo.dir/main.cpp.obj"
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1_FelipeRojo.dir/main.cpp.obj -MF CMakeFiles\Taller1_FelipeRojo.dir\main.cpp.obj.d -o CMakeFiles\Taller1_FelipeRojo.dir\main.cpp.obj -c C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\main.cpp
 
 CMakeFiles/Taller1_FelipeRojo.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Taller1_FelipeRojo.dir/main.cpp.i"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\main.cpp > CMakeFiles\Taller1_FelipeRojo.dir\main.cpp.i
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\main.cpp > CMakeFiles\Taller1_FelipeRojo.dir\main.cpp.i
 
 CMakeFiles/Taller1_FelipeRojo.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Taller1_FelipeRojo.dir/main.cpp.s"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\main.cpp -o CMakeFiles\Taller1_FelipeRojo.dir\main.cpp.s
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\main.cpp -o CMakeFiles\Taller1_FelipeRojo.dir\main.cpp.s
 
 CMakeFiles/Taller1_FelipeRojo.dir/Tablero.cpp.obj: CMakeFiles/Taller1_FelipeRojo.dir/flags.make
-CMakeFiles/Taller1_FelipeRojo.dir/Tablero.cpp.obj: C:/Users/mrobl/Desktop/felipe/CLION_Taller1_FelipeRojo_MauricioRobles/Tablero.cpp
+CMakeFiles/Taller1_FelipeRojo.dir/Tablero.cpp.obj: C:/Users/mrobl/Desktop/error/CLION_Taller1_FelipeRojo_MauricioRobles/Tablero.cpp
 CMakeFiles/Taller1_FelipeRojo.dir/Tablero.cpp.obj: CMakeFiles/Taller1_FelipeRojo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Taller1_FelipeRojo.dir/Tablero.cpp.obj"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1_FelipeRojo.dir/Tablero.cpp.obj -MF CMakeFiles\Taller1_FelipeRojo.dir\Tablero.cpp.obj.d -o CMakeFiles\Taller1_FelipeRojo.dir\Tablero.cpp.obj -c C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\Tablero.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Taller1_FelipeRojo.dir/Tablero.cpp.obj"
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1_FelipeRojo.dir/Tablero.cpp.obj -MF CMakeFiles\Taller1_FelipeRojo.dir\Tablero.cpp.obj.d -o CMakeFiles\Taller1_FelipeRojo.dir\Tablero.cpp.obj -c C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\Tablero.cpp
 
 CMakeFiles/Taller1_FelipeRojo.dir/Tablero.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Taller1_FelipeRojo.dir/Tablero.cpp.i"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\Tablero.cpp > CMakeFiles\Taller1_FelipeRojo.dir\Tablero.cpp.i
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\Tablero.cpp > CMakeFiles\Taller1_FelipeRojo.dir\Tablero.cpp.i
 
 CMakeFiles/Taller1_FelipeRojo.dir/Tablero.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Taller1_FelipeRojo.dir/Tablero.cpp.s"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\Tablero.cpp -o CMakeFiles\Taller1_FelipeRojo.dir\Tablero.cpp.s
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\Tablero.cpp -o CMakeFiles\Taller1_FelipeRojo.dir\Tablero.cpp.s
 
 CMakeFiles/Taller1_FelipeRojo.dir/MatrizPocoPoblada.cpp.obj: CMakeFiles/Taller1_FelipeRojo.dir/flags.make
-CMakeFiles/Taller1_FelipeRojo.dir/MatrizPocoPoblada.cpp.obj: C:/Users/mrobl/Desktop/felipe/CLION_Taller1_FelipeRojo_MauricioRobles/MatrizPocoPoblada.cpp
+CMakeFiles/Taller1_FelipeRojo.dir/MatrizPocoPoblada.cpp.obj: C:/Users/mrobl/Desktop/error/CLION_Taller1_FelipeRojo_MauricioRobles/MatrizPocoPoblada.cpp
 CMakeFiles/Taller1_FelipeRojo.dir/MatrizPocoPoblada.cpp.obj: CMakeFiles/Taller1_FelipeRojo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Taller1_FelipeRojo.dir/MatrizPocoPoblada.cpp.obj"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1_FelipeRojo.dir/MatrizPocoPoblada.cpp.obj -MF CMakeFiles\Taller1_FelipeRojo.dir\MatrizPocoPoblada.cpp.obj.d -o CMakeFiles\Taller1_FelipeRojo.dir\MatrizPocoPoblada.cpp.obj -c C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\MatrizPocoPoblada.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Taller1_FelipeRojo.dir/MatrizPocoPoblada.cpp.obj"
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1_FelipeRojo.dir/MatrizPocoPoblada.cpp.obj -MF CMakeFiles\Taller1_FelipeRojo.dir\MatrizPocoPoblada.cpp.obj.d -o CMakeFiles\Taller1_FelipeRojo.dir\MatrizPocoPoblada.cpp.obj -c C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\MatrizPocoPoblada.cpp
 
 CMakeFiles/Taller1_FelipeRojo.dir/MatrizPocoPoblada.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Taller1_FelipeRojo.dir/MatrizPocoPoblada.cpp.i"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\MatrizPocoPoblada.cpp > CMakeFiles\Taller1_FelipeRojo.dir\MatrizPocoPoblada.cpp.i
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\MatrizPocoPoblada.cpp > CMakeFiles\Taller1_FelipeRojo.dir\MatrizPocoPoblada.cpp.i
 
 CMakeFiles/Taller1_FelipeRojo.dir/MatrizPocoPoblada.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Taller1_FelipeRojo.dir/MatrizPocoPoblada.cpp.s"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\MatrizPocoPoblada.cpp -o CMakeFiles\Taller1_FelipeRojo.dir\MatrizPocoPoblada.cpp.s
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\MatrizPocoPoblada.cpp -o CMakeFiles\Taller1_FelipeRojo.dir\MatrizPocoPoblada.cpp.s
 
 CMakeFiles/Taller1_FelipeRojo.dir/NodoFicha.cpp.obj: CMakeFiles/Taller1_FelipeRojo.dir/flags.make
-CMakeFiles/Taller1_FelipeRojo.dir/NodoFicha.cpp.obj: C:/Users/mrobl/Desktop/felipe/CLION_Taller1_FelipeRojo_MauricioRobles/NodoFicha.cpp
+CMakeFiles/Taller1_FelipeRojo.dir/NodoFicha.cpp.obj: C:/Users/mrobl/Desktop/error/CLION_Taller1_FelipeRojo_MauricioRobles/NodoFicha.cpp
 CMakeFiles/Taller1_FelipeRojo.dir/NodoFicha.cpp.obj: CMakeFiles/Taller1_FelipeRojo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Taller1_FelipeRojo.dir/NodoFicha.cpp.obj"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1_FelipeRojo.dir/NodoFicha.cpp.obj -MF CMakeFiles\Taller1_FelipeRojo.dir\NodoFicha.cpp.obj.d -o CMakeFiles\Taller1_FelipeRojo.dir\NodoFicha.cpp.obj -c C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\NodoFicha.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Taller1_FelipeRojo.dir/NodoFicha.cpp.obj"
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1_FelipeRojo.dir/NodoFicha.cpp.obj -MF CMakeFiles\Taller1_FelipeRojo.dir\NodoFicha.cpp.obj.d -o CMakeFiles\Taller1_FelipeRojo.dir\NodoFicha.cpp.obj -c C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\NodoFicha.cpp
 
 CMakeFiles/Taller1_FelipeRojo.dir/NodoFicha.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Taller1_FelipeRojo.dir/NodoFicha.cpp.i"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\NodoFicha.cpp > CMakeFiles\Taller1_FelipeRojo.dir\NodoFicha.cpp.i
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\NodoFicha.cpp > CMakeFiles\Taller1_FelipeRojo.dir\NodoFicha.cpp.i
 
 CMakeFiles/Taller1_FelipeRojo.dir/NodoFicha.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Taller1_FelipeRojo.dir/NodoFicha.cpp.s"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\NodoFicha.cpp -o CMakeFiles\Taller1_FelipeRojo.dir\NodoFicha.cpp.s
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\NodoFicha.cpp -o CMakeFiles\Taller1_FelipeRojo.dir\NodoFicha.cpp.s
 
 CMakeFiles/Taller1_FelipeRojo.dir/Ficha.cpp.obj: CMakeFiles/Taller1_FelipeRojo.dir/flags.make
-CMakeFiles/Taller1_FelipeRojo.dir/Ficha.cpp.obj: C:/Users/mrobl/Desktop/felipe/CLION_Taller1_FelipeRojo_MauricioRobles/Ficha.cpp
+CMakeFiles/Taller1_FelipeRojo.dir/Ficha.cpp.obj: C:/Users/mrobl/Desktop/error/CLION_Taller1_FelipeRojo_MauricioRobles/Ficha.cpp
 CMakeFiles/Taller1_FelipeRojo.dir/Ficha.cpp.obj: CMakeFiles/Taller1_FelipeRojo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Taller1_FelipeRojo.dir/Ficha.cpp.obj"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1_FelipeRojo.dir/Ficha.cpp.obj -MF CMakeFiles\Taller1_FelipeRojo.dir\Ficha.cpp.obj.d -o CMakeFiles\Taller1_FelipeRojo.dir\Ficha.cpp.obj -c C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\Ficha.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Taller1_FelipeRojo.dir/Ficha.cpp.obj"
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1_FelipeRojo.dir/Ficha.cpp.obj -MF CMakeFiles\Taller1_FelipeRojo.dir\Ficha.cpp.obj.d -o CMakeFiles\Taller1_FelipeRojo.dir\Ficha.cpp.obj -c C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\Ficha.cpp
 
 CMakeFiles/Taller1_FelipeRojo.dir/Ficha.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Taller1_FelipeRojo.dir/Ficha.cpp.i"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\Ficha.cpp > CMakeFiles\Taller1_FelipeRojo.dir\Ficha.cpp.i
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\Ficha.cpp > CMakeFiles\Taller1_FelipeRojo.dir\Ficha.cpp.i
 
 CMakeFiles/Taller1_FelipeRojo.dir/Ficha.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Taller1_FelipeRojo.dir/Ficha.cpp.s"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\Ficha.cpp -o CMakeFiles\Taller1_FelipeRojo.dir\Ficha.cpp.s
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\Ficha.cpp -o CMakeFiles\Taller1_FelipeRojo.dir\Ficha.cpp.s
 
 CMakeFiles/Taller1_FelipeRojo.dir/TurnoJugador.cpp.obj: CMakeFiles/Taller1_FelipeRojo.dir/flags.make
-CMakeFiles/Taller1_FelipeRojo.dir/TurnoJugador.cpp.obj: C:/Users/mrobl/Desktop/felipe/CLION_Taller1_FelipeRojo_MauricioRobles/TurnoJugador.cpp
+CMakeFiles/Taller1_FelipeRojo.dir/TurnoJugador.cpp.obj: C:/Users/mrobl/Desktop/error/CLION_Taller1_FelipeRojo_MauricioRobles/TurnoJugador.cpp
 CMakeFiles/Taller1_FelipeRojo.dir/TurnoJugador.cpp.obj: CMakeFiles/Taller1_FelipeRojo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Taller1_FelipeRojo.dir/TurnoJugador.cpp.obj"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1_FelipeRojo.dir/TurnoJugador.cpp.obj -MF CMakeFiles\Taller1_FelipeRojo.dir\TurnoJugador.cpp.obj.d -o CMakeFiles\Taller1_FelipeRojo.dir\TurnoJugador.cpp.obj -c C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoJugador.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Taller1_FelipeRojo.dir/TurnoJugador.cpp.obj"
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1_FelipeRojo.dir/TurnoJugador.cpp.obj -MF CMakeFiles\Taller1_FelipeRojo.dir\TurnoJugador.cpp.obj.d -o CMakeFiles\Taller1_FelipeRojo.dir\TurnoJugador.cpp.obj -c C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoJugador.cpp
 
 CMakeFiles/Taller1_FelipeRojo.dir/TurnoJugador.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Taller1_FelipeRojo.dir/TurnoJugador.cpp.i"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoJugador.cpp > CMakeFiles\Taller1_FelipeRojo.dir\TurnoJugador.cpp.i
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoJugador.cpp > CMakeFiles\Taller1_FelipeRojo.dir\TurnoJugador.cpp.i
 
 CMakeFiles/Taller1_FelipeRojo.dir/TurnoJugador.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Taller1_FelipeRojo.dir/TurnoJugador.cpp.s"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoJugador.cpp -o CMakeFiles\Taller1_FelipeRojo.dir\TurnoJugador.cpp.s
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoJugador.cpp -o CMakeFiles\Taller1_FelipeRojo.dir\TurnoJugador.cpp.s
 
 CMakeFiles/Taller1_FelipeRojo.dir/TurnoEnemigo.cpp.obj: CMakeFiles/Taller1_FelipeRojo.dir/flags.make
-CMakeFiles/Taller1_FelipeRojo.dir/TurnoEnemigo.cpp.obj: C:/Users/mrobl/Desktop/felipe/CLION_Taller1_FelipeRojo_MauricioRobles/TurnoEnemigo.cpp
+CMakeFiles/Taller1_FelipeRojo.dir/TurnoEnemigo.cpp.obj: C:/Users/mrobl/Desktop/error/CLION_Taller1_FelipeRojo_MauricioRobles/TurnoEnemigo.cpp
 CMakeFiles/Taller1_FelipeRojo.dir/TurnoEnemigo.cpp.obj: CMakeFiles/Taller1_FelipeRojo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Taller1_FelipeRojo.dir/TurnoEnemigo.cpp.obj"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1_FelipeRojo.dir/TurnoEnemigo.cpp.obj -MF CMakeFiles\Taller1_FelipeRojo.dir\TurnoEnemigo.cpp.obj.d -o CMakeFiles\Taller1_FelipeRojo.dir\TurnoEnemigo.cpp.obj -c C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoEnemigo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Taller1_FelipeRojo.dir/TurnoEnemigo.cpp.obj"
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1_FelipeRojo.dir/TurnoEnemigo.cpp.obj -MF CMakeFiles\Taller1_FelipeRojo.dir\TurnoEnemigo.cpp.obj.d -o CMakeFiles\Taller1_FelipeRojo.dir\TurnoEnemigo.cpp.obj -c C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoEnemigo.cpp
 
 CMakeFiles/Taller1_FelipeRojo.dir/TurnoEnemigo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Taller1_FelipeRojo.dir/TurnoEnemigo.cpp.i"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoEnemigo.cpp > CMakeFiles\Taller1_FelipeRojo.dir\TurnoEnemigo.cpp.i
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoEnemigo.cpp > CMakeFiles\Taller1_FelipeRojo.dir\TurnoEnemigo.cpp.i
 
 CMakeFiles/Taller1_FelipeRojo.dir/TurnoEnemigo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Taller1_FelipeRojo.dir/TurnoEnemigo.cpp.s"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoEnemigo.cpp -o CMakeFiles\Taller1_FelipeRojo.dir\TurnoEnemigo.cpp.s
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoEnemigo.cpp -o CMakeFiles\Taller1_FelipeRojo.dir\TurnoEnemigo.cpp.s
 
 CMakeFiles/Taller1_FelipeRojo.dir/Estadisticas.cpp.obj: CMakeFiles/Taller1_FelipeRojo.dir/flags.make
-CMakeFiles/Taller1_FelipeRojo.dir/Estadisticas.cpp.obj: C:/Users/mrobl/Desktop/felipe/CLION_Taller1_FelipeRojo_MauricioRobles/Estadisticas.cpp
+CMakeFiles/Taller1_FelipeRojo.dir/Estadisticas.cpp.obj: C:/Users/mrobl/Desktop/error/CLION_Taller1_FelipeRojo_MauricioRobles/Estadisticas.cpp
 CMakeFiles/Taller1_FelipeRojo.dir/Estadisticas.cpp.obj: CMakeFiles/Taller1_FelipeRojo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Taller1_FelipeRojo.dir/Estadisticas.cpp.obj"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1_FelipeRojo.dir/Estadisticas.cpp.obj -MF CMakeFiles\Taller1_FelipeRojo.dir\Estadisticas.cpp.obj.d -o CMakeFiles\Taller1_FelipeRojo.dir\Estadisticas.cpp.obj -c C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\Estadisticas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Taller1_FelipeRojo.dir/Estadisticas.cpp.obj"
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1_FelipeRojo.dir/Estadisticas.cpp.obj -MF CMakeFiles\Taller1_FelipeRojo.dir\Estadisticas.cpp.obj.d -o CMakeFiles\Taller1_FelipeRojo.dir\Estadisticas.cpp.obj -c C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\Estadisticas.cpp
 
 CMakeFiles/Taller1_FelipeRojo.dir/Estadisticas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Taller1_FelipeRojo.dir/Estadisticas.cpp.i"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\Estadisticas.cpp > CMakeFiles\Taller1_FelipeRojo.dir\Estadisticas.cpp.i
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\Estadisticas.cpp > CMakeFiles\Taller1_FelipeRojo.dir\Estadisticas.cpp.i
 
 CMakeFiles/Taller1_FelipeRojo.dir/Estadisticas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Taller1_FelipeRojo.dir/Estadisticas.cpp.s"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\Estadisticas.cpp -o CMakeFiles\Taller1_FelipeRojo.dir\Estadisticas.cpp.s
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\Estadisticas.cpp -o CMakeFiles\Taller1_FelipeRojo.dir\Estadisticas.cpp.s
 
 CMakeFiles/Taller1_FelipeRojo.dir/SistemaJuego.cpp.obj: CMakeFiles/Taller1_FelipeRojo.dir/flags.make
-CMakeFiles/Taller1_FelipeRojo.dir/SistemaJuego.cpp.obj: C:/Users/mrobl/Desktop/felipe/CLION_Taller1_FelipeRojo_MauricioRobles/SistemaJuego.cpp
+CMakeFiles/Taller1_FelipeRojo.dir/SistemaJuego.cpp.obj: C:/Users/mrobl/Desktop/error/CLION_Taller1_FelipeRojo_MauricioRobles/SistemaJuego.cpp
 CMakeFiles/Taller1_FelipeRojo.dir/SistemaJuego.cpp.obj: CMakeFiles/Taller1_FelipeRojo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Taller1_FelipeRojo.dir/SistemaJuego.cpp.obj"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1_FelipeRojo.dir/SistemaJuego.cpp.obj -MF CMakeFiles\Taller1_FelipeRojo.dir\SistemaJuego.cpp.obj.d -o CMakeFiles\Taller1_FelipeRojo.dir\SistemaJuego.cpp.obj -c C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\SistemaJuego.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Taller1_FelipeRojo.dir/SistemaJuego.cpp.obj"
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1_FelipeRojo.dir/SistemaJuego.cpp.obj -MF CMakeFiles\Taller1_FelipeRojo.dir\SistemaJuego.cpp.obj.d -o CMakeFiles\Taller1_FelipeRojo.dir\SistemaJuego.cpp.obj -c C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\SistemaJuego.cpp
 
 CMakeFiles/Taller1_FelipeRojo.dir/SistemaJuego.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Taller1_FelipeRojo.dir/SistemaJuego.cpp.i"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\SistemaJuego.cpp > CMakeFiles\Taller1_FelipeRojo.dir\SistemaJuego.cpp.i
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\SistemaJuego.cpp > CMakeFiles\Taller1_FelipeRojo.dir\SistemaJuego.cpp.i
 
 CMakeFiles/Taller1_FelipeRojo.dir/SistemaJuego.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Taller1_FelipeRojo.dir/SistemaJuego.cpp.s"
-	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\SistemaJuego.cpp -o CMakeFiles\Taller1_FelipeRojo.dir\SistemaJuego.cpp.s
+	"D:\CLion 2024.2.2\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\SistemaJuego.cpp -o CMakeFiles\Taller1_FelipeRojo.dir\SistemaJuego.cpp.s
 
 # Object files for target Taller1_FelipeRojo
 Taller1_FelipeRojo_OBJECTS = \
@@ -222,7 +222,7 @@ Taller1_FelipeRojo.exe: CMakeFiles/Taller1_FelipeRojo.dir/build.make
 Taller1_FelipeRojo.exe: CMakeFiles/Taller1_FelipeRojo.dir/linkLibs.rsp
 Taller1_FelipeRojo.exe: CMakeFiles/Taller1_FelipeRojo.dir/objects1.rsp
 Taller1_FelipeRojo.exe: CMakeFiles/Taller1_FelipeRojo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Taller1_FelipeRojo.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Taller1_FelipeRojo.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Taller1_FelipeRojo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -234,6 +234,6 @@ CMakeFiles/Taller1_FelipeRojo.dir/clean:
 .PHONY : CMakeFiles/Taller1_FelipeRojo.dir/clean
 
 CMakeFiles/Taller1_FelipeRojo.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles\Taller1_FelipeRojo.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\cmake-build-debug\CMakeFiles\Taller1_FelipeRojo.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Taller1_FelipeRojo.dir/depend
 

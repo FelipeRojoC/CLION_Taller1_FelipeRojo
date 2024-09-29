@@ -1,5 +1,5 @@
 CMakeFiles/Taller1_FelipeRojo.dir/main.cpp.obj: \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\main.cpp \
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\main.cpp \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -160,11 +160,11 @@ CMakeFiles/Taller1_FelipeRojo.dir/main.cpp.obj: \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\Ficha.h \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\SistemaJuego.h \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\Tablero.h \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\MatrizPocoPoblada.h \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\NodoFicha.h \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoJugador.h \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoEnemigo.h \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\Estadisticas.h
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\Ficha.h \
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\SistemaJuego.h \
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\Tablero.h \
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\MatrizPocoPoblada.h \
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\NodoFicha.h \
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoJugador.h \
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoEnemigo.h \
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\Estadisticas.h

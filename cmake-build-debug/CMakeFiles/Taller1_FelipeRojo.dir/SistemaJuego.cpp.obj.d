@@ -1,10 +1,10 @@
 CMakeFiles/Taller1_FelipeRojo.dir/SistemaJuego.cpp.obj: \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\SistemaJuego.cpp \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\SistemaJuego.h \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\Tablero.h \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\MatrizPocoPoblada.h \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\NodoFicha.h \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\Ficha.h \
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\SistemaJuego.cpp \
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\SistemaJuego.h \
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\Tablero.h \
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\MatrizPocoPoblada.h \
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\NodoFicha.h \
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\Ficha.h \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -110,7 +110,7 @@ CMakeFiles/Taller1_FelipeRojo.dir/SistemaJuego.cpp.obj: \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoJugador.h \
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoJugador.h \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
@@ -156,8 +156,8 @@ CMakeFiles/Taller1_FelipeRojo.dir/SistemaJuego.cpp.obj: \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoEnemigo.h \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\Estadisticas.h \
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\TurnoEnemigo.h \
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\Estadisticas.h \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/fstream \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \

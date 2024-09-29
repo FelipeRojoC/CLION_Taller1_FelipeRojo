@@ -22,7 +22,7 @@ public:
     ~MatrizPocoPoblada();
 
     //Metodos
-    bool buscarFicha(int fila, int columna);
+   // bool buscarFicha(int fila, int columna); //TODO
     bool agregarFicha(Ficha* ficha, int fila, int columna);
     bool eliminarFicha(int fila, int columna);
 
@@ -30,9 +30,10 @@ public:
     //Metodo para liberar memoria
     void liberarMemoria();
 
-    NodoFicha * buscarNodo(int fila, int columna);
+    NodoFicha* buscarNodo(int fila, int columna);
 
-    Ficha * obtenerFicha(int fila, int columna);
+    Ficha* obtenerFicha(int fila, int columna);
+    NodoFicha* buscarFicha(int fila, int columna);
 };
 
 #endif // MATRIZPOCOPOBLADA_H

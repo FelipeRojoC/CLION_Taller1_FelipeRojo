@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Taller1_FelipeRojo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Taller1_FelipeRojo-Debug-28fa7cbb24c13101863e.json",
+					"jsonFile" : "target-Taller1_FelipeRojo-Debug-6da3837c7059142d2f24.json",
 					"name" : "Taller1_FelipeRojo",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/mrobl/Desktop/felipe/CLION_Taller1_FelipeRojo_MauricioRobles/cmake-build-debug",
-		"source" : "C:/Users/mrobl/Desktop/felipe/CLION_Taller1_FelipeRojo_MauricioRobles"
+		"build" : "C:/Users/mrobl/Desktop/error/CLION_Taller1_FelipeRojo_MauricioRobles/cmake-build-debug",
+		"source" : "C:/Users/mrobl/Desktop/error/CLION_Taller1_FelipeRojo_MauricioRobles"
 	},
 	"version" : 
 	{

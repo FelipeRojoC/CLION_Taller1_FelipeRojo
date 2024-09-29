@@ -1,6 +1,6 @@
 CMakeFiles/Taller1_FelipeRojo.dir/Estadisticas.cpp.obj: \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\Estadisticas.cpp \
- C:\Users\mrobl\Desktop\felipe\CLION_Taller1_FelipeRojo_MauricioRobles\Estadisticas.h \
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\Estadisticas.cpp \
+ C:\Users\mrobl\Desktop\error\CLION_Taller1_FelipeRojo_MauricioRobles\Estadisticas.h \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  D:/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
