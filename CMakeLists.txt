@@ -3,11 +3,10 @@ project(Taller1_FelipeRojo)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(Taller1_FelipeRojo main.cpp
+add_executable(Taller1_FelipeRojo Model/main.cpp
         Model/Ficha.cpp
         Model/Ficha.h
-        Services/ISistemaJuego.cpp
-        Services/ISistemaJuego.h
+        Model/ISistemaJuego.h
         Model/NodoFicha.cpp
         Model/NodoFicha.h
         Model/MatrizPocoPoblada.cpp
@@ -19,4 +18,6 @@ add_executable(Taller1_FelipeRojo main.cpp
         Model/TurnoEnemigo.cpp
         Model/TurnoEnemigo.h
         Model/Estadisticas.cpp
-        Model/Estadisticas.h)
+        Model/Estadisticas.h
+        Model/SistemaJuego.cpp
+        Model/SistemaJuego.h)

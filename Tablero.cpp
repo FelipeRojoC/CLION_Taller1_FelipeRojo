@@ -5,12 +5,11 @@
 #include "Tablero.h"
 #include <iostream>
 
-Tablero::Tablero(int filas, int columnas) : filas(filas), columnas(columnas), matriz(filas, columnas) {
-    // Aqui puedes inicializar otras estructuras si es necesario
-}
+//Constructor
+Tablero::Tablero(int filas, int columnas) : filas(filas), columnas(columnas), matriz(filas, columnas) {}
 
+//Metodo para colocar una ficha en el tablero
 void Tablero::colocarFicha(Ficha* ficha, int fila, int columna) {
-    // Logica para colocar la ficha en la matriz
     if (matriz.agregarFicha(ficha, fila, columna)) {
         std::cout << "Ficha colocada en (" << fila << ", " << columna << ")." << std::endl;
     } else {
@@ -18,8 +17,8 @@ void Tablero::colocarFicha(Ficha* ficha, int fila, int columna) {
     }
 }
 
+//Metodo para mover una ficha en el tablero
 void Tablero::moverFicha(Ficha* ficha, int nuevaFila, int nuevaColumna) {
-    // Logica para mover la ficha en la matriz
     if (matriz.eliminarFicha(ficha->getFila(), ficha->getColumna())) {
         if (matriz.agregarFicha(ficha, nuevaFila, nuevaColumna)) {
             std::cout << "Ficha movida a (" << nuevaFila << ", " << nuevaColumna << ")." << std::endl;
@@ -29,4 +28,9 @@ void Tablero::moverFicha(Ficha* ficha, int nuevaFila, int nuevaColumna) {
     } else {
         std::cout << "No se pudo eliminar la ficha de la posicion anterior." << std::endl;
     }
+}
+
+//Metodo para obtener una ficha en una posición específica
+Ficha* Tablero::getFicha(int fila, int columna) {
+    return matriz.obtenerFicha(fila, columna);
 }

@@ -31,6 +31,11 @@ public:
     void setRango(int rango);
     void setFila(int fila); //Metodo para establecer la fila
     void setColumna(int columna); //Metodo para establecer la columna
+    bool getAtacar() const {
+        bool atacar;
+        return atacar; 
+    }
+
 };
 
 #endif // FICHA_H

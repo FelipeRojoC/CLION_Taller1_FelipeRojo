@@ -4,7 +4,7 @@
 
 #include "Ficha.h"
 
-Ficha::Ficha(const std::string& nombre, int hp, int atk, int def, int rango, int fila, int columna): nombreFicha(nombre), puntosSalud(hp), danio(atk), defensa(def), rango(rango), fila(fila), columna(columna) {}
+Ficha::Ficha(const std::string& nombre, int hp, int atk, int def, int rango, int fila, int columna): nombreFicha(nombre), puntosSalud(hp), danio(atk), defensa(def), rango(rango), fila(fila), columna(columna){}
 
 std::string Ficha::getNombreFicha() const {
     return nombreFicha;
@@ -53,3 +53,14 @@ void Ficha::setFila(int fila) {
 void Ficha::setColumna(int columna) {
     this->columna = columna;
 }
+
+bool getAtacar() {
+    bool atacar;
+    return atacar;
+}
+
+
+
+
+
+

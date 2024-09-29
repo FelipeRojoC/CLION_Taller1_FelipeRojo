@@ -2,43 +2,71 @@
 #include <fstream>
 #include <string>
 #include <vector>
+#include "Ficha.h"
+#include "SistemaJuego.h"
 
-void leerFichas(const std::string& nombreArchivo) {
-    std::ifstream archivoFichas(nombreArchivo);
-    if (!archivoFichas.is_open()) {
-        std::cerr << "Error al abrir el archivo de fichas: " << nombreArchivo << std::endl;
-        return;
+std::vector<Ficha*> leerFichas(const std::string& archivoFichas) {
+    std::vector<Ficha*> fichas;
+    std::ifstream archivo(archivoFichas);
+
+    if (!archivo.is_open()) {
+        std::cerr << "Error al abrir el archivo de fichas: " << archivoFichas << std::endl;
+        return fichas;
     }
 
-    std::string linea;
-    while (std::getline(archivoFichas, linea)) {
-        std::cout << "Ficha leida: " << linea << std::endl;
+    std::string nombre;
+    int hp, atk, def, rango;
+    while (archivo >> nombre >> hp >> atk >> def >> rango) {
+        fichas.push_back(new Ficha(nombre, hp, atk, def, rango, -1, -1));  // -1 como posicion por defecto
     }
 
-    archivoFichas.close();
+    archivo.close();
+    return fichas;
 }
 
-void leerEscenarios(const std::string& nombreArchivo) {
-    std::ifstream archivoEscenarios(nombreArchivo);
-    if (!archivoEscenarios.is_open()) {
-        std::cerr << "Error al abrir el archivo de escenarios: " << nombreArchivo << std::endl;
-        return;
+std::vector<std::string> leerEscenarios(const std::string& archivoEscenarios) {
+    std::vector<std::string> escenarios;
+    std::ifstream archivo(archivoEscenarios);
+
+    if (!archivo.is_open()) {
+        std::cerr << "Error al abrir el archivo de escenarios: " << archivoEscenarios << std::endl;
+        return escenarios;
     }
 
-    std::string linea;
-    while (std::getline(archivoEscenarios, linea)) {
-        std::cout << "Escenario leido: " << linea << std::endl;
+    std::string escenario;
+    while (std::getline(archivo, escenario)) {
+        escenarios.push_back(escenario);
     }
 
-    archivoEscenarios.close();
+    archivo.close();
+    return escenarios;
 }
 
 int main() {
     std::string archivoFichas = "fichas.txt";
     std::string archivoEscenarios = "escenarios.txt";
 
-    leerFichas(archivoFichas);
-    leerEscenarios(archivoEscenarios);
+    // Lectura de archivos
+    std::vector<Ficha*> fichas = leerFichas(archivoFichas);
+    std::vector<std::string> escenarios = leerEscenarios(archivoEscenarios);
+
+    if (fichas.empty() || escenarios.empty()) {
+        std::cerr << "Error: No se pudieron cargar las fichas o escenarios." << std::endl;
+        return 1;
+    }
+
+    //Inicializacion del sistema de juego
+    SistemaJuego sistemaJuego;
+    sistemaJuego.iniciarJuego();
+
+    //Ejemplo de uso del sistema de juego
+    sistemaJuego.cambiarPosicionFichas();
+    sistemaJuego.finalizarJuego();
+
+    //Liberar memoria de las fichas
+    for (Ficha* ficha : fichas) {
+        delete ficha;
+    }
 
     return 0;
 }
