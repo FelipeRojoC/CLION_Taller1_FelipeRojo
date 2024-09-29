@@ -9,24 +9,42 @@ class Tablero{
     + moverFicha(ficha: Ficha, nuevaFila: int, nuevaColumna: int): void
 }
 
-abstract Ficha{
+abstract class Ficha {
     - nombreFicha: String
     - puntosSalud: int
     - danio: int
     - defensa: int
     - rango: int
-    + desmayar(): void
-    + atacar(): void
+    - atacar: bool
+    - desmayar: bool
+    + getNombreFicha(): String
+    + getPuntosSalud(): int
+    + getDefensa(): int
+    + getRango(): int
+    + getAtacar(): bool
+    + getDesmayar(): bool
+    + setPuntosSalud(int puntos): void
+    + setDanio(int danio): void
+    + setDefensa(int defensa): void
+    + setRango(int rango): void
+    + setAtacar(bool atacar): void
 }
 
 class NodoFicha{
-    + ficha: Ficha
-    + left: NodoFicha*
-    + up: NodoFicha*
-    + fila: int
-    + columna: int
+    - ficha: Ficha*
+    - left: NodoFicha*
+    - up: NodoFicha*
+    - fila: int
+    - columna: int
     + NodoFicha(ficha: Ficha*, posicionFila: int, posicionColumna: int)
     + ~NodoFicha()
+    + getFicha(): Ficha*
+    + getFila(): int
+    + getColumna(): int
+    + getLeft(): NodoFicha*
+    + setLeft(NodoFicha* nodo): void
+    + getUp(): NodoFicha*
+    + setUp(NodoFicha* nodo): void
 }
 
 class MatrizPocoPoblada{
@@ -41,7 +59,6 @@ class MatrizPocoPoblada{
     + agregarFicha(): boolean
 }
 
-
 class TurnoJugador{
     - tablero: Tablero
     + prepararTurno(): void
@@ -54,43 +71,35 @@ class TurnoEnemigo{
     + ejecutarAtaques(): void
 }
 
-
-class Estadisticas{
-
-}
-
-class SistemaPuntuacion{
+class Estadisticas {
 
 }
 
-interface ISistemaPuntuacion{
+class SistemaJuego {
+
+}
+
+interface ISistemaJuego{
     + iniciarJuego(): void
     + cargarMapa(): void
     + cambiarPosicionFichas(): void
     + mostrarMenuEstadisticas(): void
 }
 
-'Notas
+' Notas
 note "Se tienen que tener dos tableros, un jugador y un enemigo" as N1
 note "Cada tablero esta confirmado por 4 filas y 3 columnas" as N2
 note "Deben ser matrices poco pobladas" as N3
 note "Cuando una unidad se desmaya la casilla queda bloqueada" as N4
 
-'Relaciones de notas
+' Relaciones de notas
 Tablero -- N1
 Tablero -- N2
 Tablero -- N3
 Tablero -- N4
 
-'Relaciones
-Ficha <|-- Arquero
-Ficha <|-- Mago
-Ficha <|-- Tanque
-Ficha <|-- Espadachin
 
-NodoFicha --> Ficha: contiene
-MatrizPocoPoblada --> NodoFicha: maneja
-
-
+NodoFicha --> Ficha : contiene
+MatrizPocoPoblada --> NodoFicha : maneja
 
 @enduml

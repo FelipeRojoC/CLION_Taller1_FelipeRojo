@@ -5,4 +5,8 @@ set(CMAKE_CXX_STANDARD 26)
 
 add_executable(Taller1_FelipeRojo main.cpp
         Model/Ficha.cpp
-        Model/Ficha.h)
+        Model/Ficha.h
+        Services/ISistemaJuego.cpp
+        Services/ISistemaJuego.h
+        Model/NodoFicha.cpp
+        Model/NodoFicha.h)
