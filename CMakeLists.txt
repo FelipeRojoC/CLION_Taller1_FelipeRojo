@@ -9,4 +9,6 @@ add_executable(Taller1_FelipeRojo main.cpp
         Services/ISistemaJuego.cpp
         Services/ISistemaJuego.h
         Model/NodoFicha.cpp
-        Model/NodoFicha.h)
+        Model/NodoFicha.h
+        Model/MatrizPocoPoblada.cpp
+        Model/MatrizPocoPoblada.h)

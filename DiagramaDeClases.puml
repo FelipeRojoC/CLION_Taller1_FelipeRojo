@@ -2,7 +2,7 @@
 
 left to right direction
 
-class Tablero{
+class Tablero {
     - filas: int
     - columnas: int
     + colocarFicha(ficha: Ficha, fila: int, columna: int): void
@@ -30,7 +30,7 @@ abstract class Ficha {
     + setAtacar(bool atacar): void
 }
 
-class NodoFicha{
+class NodoFicha {
     - ficha: Ficha*
     - left: NodoFicha*
     - up: NodoFicha*
@@ -47,59 +47,58 @@ class NodoFicha{
     + setUp(NodoFicha* nodo): void
 }
 
-class MatrizPocoPoblada{
+class MatrizPocoPoblada {
     - a_Fil: NodoFicha*
     - a_Col: NodoFicha*
-    - fila: int
-    - columna: int
-    + mpp(nFill: int, nCol: int)
-    + ~mpp()
-    + buscarFicha(ficha: Ficha*, fila: int, columna:int): boolean
-    + eliminarFicha(): boolean
-    + agregarFicha(): boolean
+    - filas: int
+    - columnas: int
+    + MatrizPocoPoblada(nFilas: int, nColumnas: int)
+    + ~MatrizPocoPoblada()
+    + buscarFicha(ficha: Ficha*, fila: int, columna: int): boolean
+    + eliminarFicha(fila: int, columna: int): boolean
+    + agregarFicha(ficha: Ficha*, fila: int, columna: int): boolean
 }
 
-class TurnoJugador{
+class TurnoJugador {
     - tablero: Tablero
     + prepararTurno(): void
     + seleccionarAtaque(ficha: Ficha, tipo: String): void
     + avanzarFaseCombate(): void
 }
 
-class TurnoEnemigo{
+class TurnoEnemigo {
     - tablero: Tablero
     + ejecutarAtaques(): void
 }
 
 class Estadisticas {
-
+    + mostrarEstadisticas(): void
+    + actualizarEstadisticas(): void
 }
 
 class SistemaJuego {
-
+    + iniciarJuego(): void
+    + finalizarJuego(): void
 }
 
-interface ISistemaJuego{
+interface ISistemaJuego {
     + iniciarJuego(): void
     + cargarMapa(): void
     + cambiarPosicionFichas(): void
     + mostrarMenuEstadisticas(): void
 }
 
-' Notas
-note "Se tienen que tener dos tableros, un jugador y un enemigo" as N1
-note "Cada tablero esta confirmado por 4 filas y 3 columnas" as N2
-note "Deben ser matrices poco pobladas" as N3
-note "Cuando una unidad se desmaya la casilla queda bloqueada" as N4
-
-' Relaciones de notas
-Tablero -- N1
-Tablero -- N2
-Tablero -- N3
-Tablero -- N4
-
-
+' Relaciones entre clases
 NodoFicha --> Ficha : contiene
 MatrizPocoPoblada --> NodoFicha : maneja
+Tablero --> MatrizPocoPoblada : usa
+TurnoJugador --> Tablero : controla
+TurnoEnemigo --> Tablero : controla
+SistemaJuego --> ISistemaJuego : implementa
+SistemaJuego --> Estadisticas : maneja
+SistemaJuego --> TurnoJugador : inicia
+SistemaJuego --> TurnoEnemigo : inicia
+MatrizPocoPoblada --> Ficha : almacena
+Tablero --> Ficha : posiciona
 
 @enduml

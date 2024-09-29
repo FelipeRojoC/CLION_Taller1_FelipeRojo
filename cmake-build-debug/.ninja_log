@@ -1,0 +1,7 @@
+# ninja log v6
+26	177	7493243062312394	CMakeFiles/Taller1_FelipeRojo.dir/Services/ISistemaJuego.cpp.obj	5ed5c587828ce2e4
+38	879	7493243062432424	CMakeFiles/Taller1_FelipeRojo.dir/Model/NodoFicha.cpp.obj	28f77a63b65320f6
+17	903	7493243062221226	CMakeFiles/Taller1_FelipeRojo.dir/Model/Ficha.cpp.obj	ceb8993b6cccf9e8
+50	984	7493243062555545	CMakeFiles/Taller1_FelipeRojo.dir/Model/MatrizPocoPoblada.cpp.obj	1dd832ec6bc7eaff
+6	1130	7493243062107986	CMakeFiles/Taller1_FelipeRojo.dir/main.cpp.obj	73459176ce45c792
+1131	1491	7493243073353214	Taller1_FelipeRojo.exe	f7bb96683d9ac206
