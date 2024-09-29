@@ -7,7 +7,13 @@
 
 //Constructor
 Tablero::Tablero(int filas, int columnas) : filas(filas), columnas(columnas), matriz(filas, columnas) {}
+int Tablero::getFilas() const {
+    return filas;
+}
 
+int Tablero::getColumnas() const {
+    return columnas;
+}
 //Metodo para colocar una ficha en el tablero
 void Tablero::colocarFicha(Ficha* ficha, int fila, int columna) {
     if (matriz.agregarFicha(ficha, fila, columna)) {

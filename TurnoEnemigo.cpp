@@ -14,34 +14,27 @@ TurnoEnemigo::TurnoEnemigo(Tablero* tablero) {
 
 //Metodo para ejecutar los ataques del enemigo
 void TurnoEnemigo::ejecutarAtaques() {
-    std::cout << "El enemigo esta ejecutando sus ataques." << std::endl;
-
-    //Obtener la matriz del tablero del enemigo
-    MatrizPocoPoblada* matriz = tablero->getMatriz();
-
-    //Recorrer la matriz del tablero
-    for (int fila = 0; fila < tablero->getFilas(); ++fila) {
-        for (int columna = 0; columna < tablero->getColumnas(); ++columna) {
-            NodoFicha* nodo = matriz->buscarFicha(fila, columna);
-
-            // Si hay una ficha en esta posicion
-            if (nodo != nullptr) {
-                Ficha* fichaEnemiga = nodo->getFicha();
+    std::cout << "Ejecutando ataques del enemigo..." << std::endl;
+    for (int i = 0; i < tablero->getFilas(); ++i) {
+        for (int j = 0; j < tablero->getColumnas(); ++j) {
+            Ficha* ficha = tablero->getFicha(i, j);
+            if (ficha && ficha->getNombreFicha() == "Enemigo")  {
+                int filaObjetivo = i + ficha->getRango();
 
                 //Verificar si la ficha puede atacar
-                if (fichaEnemiga->getAtacar()) {
+                if (ficha->getAtacar()) {
                     //Buscar la ficha objetivo en el tablero del jugador
-                    int filaObjetivo = fila + fichaEnemiga->getRango();  // Usar el rango para definir la distancia
-                    NodoFicha* nodoObjetivo = matriz->buscarFicha(filaObjetivo, columna);
+                    int filaObjetivo = i + ficha->getRango();  // Usar el rango para definir la distancia
+                    NodoFicha* nodoObjetivo = matriz->buscarFicha(filaObjetivo, j);
 
                     if (nodoObjetivo != nullptr) {
                         Ficha* fichaObjetivo = nodoObjetivo->getFicha();
 
                         //Calcular el dano y aplicarlo
-                        int dano = fichaEnemiga->getAtacar() - fichaObjetivo->getDefensa();
+                        int dano = ficha->getAtacar() - fichaObjetivo->getDefensa();
                         if (dano > 0) {
                             fichaObjetivo->setPuntosSalud(fichaObjetivo->getPuntosSalud() - dano);
-                            std::cout << "La ficha " << fichaEnemiga->getNombreFicha()
+                            std::cout << "La ficha " << ficha->getNombreFicha()
                                       << " ataco a " << fichaObjetivo->getNombreFicha()
                                       << " causando " << dano << " de dano." << std::endl;
 
@@ -56,7 +49,7 @@ void TurnoEnemigo::ejecutarAtaques() {
                         }
                     } else {
                         std::cout << "No hay objetivo en la posicion (" << filaObjetivo
-                                  << ", " << columna << ")." << std::endl;
+                                  << ", " << j << ")." << std::endl;
                     }
                 }
             }

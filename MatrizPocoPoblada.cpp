@@ -24,17 +24,14 @@ void MatrizPocoPoblada::liberarMemoria() {
     a_Fil = nullptr;
     a_Col = nullptr;
 }
-
+Ficha* MatrizPocoPoblada::obtenerFicha(int fila, int columna) {
+    NodoFicha* nodo = buscarNodo(fila, columna);
+    return nodo ? nodo->getFicha() : nullptr;
+}
 //Metodo para buscar una ficha en la matriz
-bool MatrizPocoPoblada::buscarFicha(Ficha* ficha, int fila, int columna) {
-    NodoFicha* current = a_Fil;
-    while (current != nullptr) {
-        if (current->getFila() == fila && current->getColumna() == columna && current->getFicha() == ficha) {
-            return true;
-        }
-        current = current->getLeft();  //Recorrer fila
-    }
-    return false;
+bool MatrizPocoPoblada::buscarFicha(int fila, int columna) {
+    NodoFicha* nodo = buscarNodo(fila, columna);
+    return nodo != nullptr;
 }
 
 //Metodo para agregar una ficha en la matriz
