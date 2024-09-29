@@ -1,13 +1,14 @@
 # ninja log v6
 26	177	7493243062312394	CMakeFiles/Taller1_FelipeRojo.dir/Services/ISistemaJuego.cpp.obj	5ed5c587828ce2e4
-22	1137	7493262141475182	CMakeFiles/Taller1_FelipeRojo.dir/main.cpp.obj	73459176ce45c792
-38	876	7493262141626476	CMakeFiles/Taller1_FelipeRojo.dir/Model/NodoFicha.cpp.obj	28f77a63b65320f6
+24	920	7493423363017131	CMakeFiles/Taller1_FelipeRojo.dir/Model/NodoFicha.cpp.obj	28f77a63b65320f6
 53	964	7493262141789044	CMakeFiles/Taller1_FelipeRojo.dir/Model/Tablero.cpp.obj	53b5f0dc1cea2e38
-30	911	7493262141557327	CMakeFiles/Taller1_FelipeRojo.dir/Model/Ficha.cpp.obj	ceb8993b6cccf9e8
+22	1137	7493262141475182	CMakeFiles/Taller1_FelipeRojo.dir/main.cpp.obj	73459176ce45c792
+16	933	7493423362948953	CMakeFiles/Taller1_FelipeRojo.dir/Model/Ficha.cpp.obj	ceb8993b6cccf9e8
 46	972	7493262141705882	CMakeFiles/Taller1_FelipeRojo.dir/Model/MatrizPocoPoblada.cpp.obj	1dd832ec6bc7eaff
 1137	1354	7493262152625606	Taller1_FelipeRojo.exe	9b7b3827eac253ce
 61	1007	7493262141859055	CMakeFiles/Taller1_FelipeRojo.dir/Model/TurnoJugador.cpp.obj	1ab3873d0dddd4c1
-79	224	7493394778222425	CMakeFiles/Taller1_FelipeRojo.dir/Model/Estadisticas.cpp.obj	b1a31a4643ed9d23
 91	1265	7493413767515021	CMakeFiles/Taller1_FelipeRojo.dir/Model/Estadisticas.cpp.obj	b1a31a4643ed9d23
-24	920	7493423363017131	CMakeFiles/Taller1_FelipeRojo.dir/Model/NodoFicha.cpp.obj	28f77a63b65320f6
-16	933	7493423362948953	CMakeFiles/Taller1_FelipeRojo.dir/Model/Ficha.cpp.obj	ceb8993b6cccf9e8
+3	450	7493426785399284	build.ninja	7e1a4e99c5e3d6b6
+47	1022	7493426787302974	CMakeFiles/Taller1_FelipeRojo.dir/NodoFicha.cpp.obj	d96cc710db4d3128
+40	1055	7493426787243825	CMakeFiles/Taller1_FelipeRojo.dir/Ficha.cpp.obj	1f65323407e2ded
+94	1196	7493426787785370	CMakeFiles/Taller1_FelipeRojo.dir/Estadisticas.cpp.obj	1fd32ca42823a92e
