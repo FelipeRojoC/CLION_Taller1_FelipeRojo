@@ -4,20 +4,14 @@
 
 #include "Ficha.h"
 
-Ficha::Ficha(const std::string &nombreFicha, int puntosSalud, int danio, int defensa, int rango)
-    : nombreFicha(nombreFicha), puntosSalud(puntosSalud), danio(danio), defensa(defensa), rango(rango), atacar(false), estaDesmayada(false) {}
+Ficha::Ficha(const std::string& nombre, int hp, int atk, int def, int rango, int fila, int columna): nombreFicha(nombre), puntosSalud(hp), danio(atk), defensa(def), rango(rango), fila(fila), columna(columna) {}
 
-//Getters
 std::string Ficha::getNombreFicha() const {
     return nombreFicha;
 }
 
 int Ficha::getPuntosSalud() const {
     return puntosSalud;
-}
-
-int Ficha::getDanio() const {
-    return danio;
 }
 
 int Ficha::getDefensa() const {
@@ -28,20 +22,16 @@ int Ficha::getRango() const {
     return rango;
 }
 
-bool Ficha::getAtacar() const {
-    return atacar;
+int Ficha::getFila() const {
+    return fila;
 }
 
-bool Ficha::getEstaDesmayada() const {
-    return estaDesmayada;
+int Ficha::getColumna() const {
+    return columna;
 }
 
-//Setters
 void Ficha::setPuntosSalud(int puntos) {
-    this->puntosSalud = puntos;
-    if (this->puntosSalud <= 0) {
-        desmayar();  // Desmayar si la ficha llega a 0 en vida
-    }
+    puntosSalud = puntos;
 }
 
 void Ficha::setDanio(int danio) {
@@ -56,16 +46,10 @@ void Ficha::setRango(int rango) {
     this->rango = rango;
 }
 
-void Ficha::setAtacar(bool atacar) {
-    this->atacar = atacar;
+void Ficha::setFila(int fila) {
+    this->fila = fila;
 }
 
-//Metodo para desmayar y revivir
-
-void Ficha::desmayar() {
-    this->estaDesmayada = true;
-    this->atacar = false;  // No puede atacar si esta desmayada
-}
-void Ficha::revivir() {
-    this->estaDesmayada = false;
+void Ficha::setColumna(int columna) {
+    this->columna = columna;
 }

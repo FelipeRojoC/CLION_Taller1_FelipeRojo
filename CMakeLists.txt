@@ -13,4 +13,10 @@ add_executable(Taller1_FelipeRojo main.cpp
         Model/MatrizPocoPoblada.cpp
         Model/MatrizPocoPoblada.h
         Model/Tablero.cpp
-        Model/Tablero.h)
+        Model/Tablero.h
+        Model/TurnoJugador.cpp
+        Model/TurnoJugador.h
+        Model/TurnoEnemigo.cpp
+        Model/TurnoEnemigo.h
+        Model/Estadisticas.cpp
+        Model/Estadisticas.h)

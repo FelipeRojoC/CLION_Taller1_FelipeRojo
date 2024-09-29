@@ -14,30 +14,23 @@ private:
     int danio;
     int defensa;
     int rango;
-    bool atacar;
-    bool estaDesmayada;
-public:
-    Ficha(const std::string &nombreFicha, int puntosSalud, int danio, int defensa, int rango);
+    int fila;
+    int columna;
 
-    // Getters
+public:
+    Ficha(const std::string& nombre, int hp, int atk, int def, int rango, int fila, int columna);
     std::string getNombreFicha() const;
     int getPuntosSalud() const;
-    int getDanio() const;
     int getDefensa() const;
     int getRango() const;
-    bool getAtacar() const;
-    bool getEstaDesmayada() const;
-
-    // Setters
+    int getFila() const; //Metodo para obtener la fila
+    int getColumna() const; //Metodo para obtener la columna
     void setPuntosSalud(int puntos);
     void setDanio(int danio);
     void setDefensa(int defensa);
     void setRango(int rango);
-    void setAtacar(bool atacar);
-
-    //Metodos
-    void desmayar();
-    void revivir();
+    void setFila(int fila); //Metodo para establecer la fila
+    void setColumna(int columna); //Metodo para establecer la columna
 };
 
-#endif
+#endif // FICHA_H

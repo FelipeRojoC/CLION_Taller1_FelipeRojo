@@ -2,30 +2,31 @@
 // Created by felip on 29-09-2024.
 //
 
-#ifndef TABLERO_H
-#define TABLERO_H
+#include "Tablero.h"
+#include <iostream>
 
-#include "MatrizPocoPoblada.h"
-#include "Ficha.h"
+Tablero::Tablero(int filas, int columnas) : filas(filas), columnas(columnas), matriz(filas, columnas) {
+    // Aqui puedes inicializar otras estructuras si es necesario
+}
 
-class Tablero {
-private:
-    MatrizPocoPoblada* matriz; //Matriz para almacenar las fichas
-    int filas;                 //Numero de filas
-    int columnas;             //Numero de columnas
+void Tablero::colocarFicha(Ficha* ficha, int fila, int columna) {
+    // Logica para colocar la ficha en la matriz
+    if (matriz.agregarFicha(ficha, fila, columna)) {
+        std::cout << "Ficha colocada en (" << fila << ", " << columna << ")." << std::endl;
+    } else {
+        std::cout << "No se pudo colocar la ficha en (" << fila << ", " << columna << ")." << std::endl;
+    }
+}
 
-public:
-    //Constructor
-    Tablero(int filas = 4, int columnas = 3);
-
-    //Destructor
-    ~Tablero();
-
-    //Metodo para colocar una ficha en el tablero
-    void colocarFicha(Ficha* ficha, int fila, int columna);
-
-    //Metodo para mover una ficha a una nueva posición
-    void moverFicha(Ficha* ficha, int nuevaFila, int nuevaColumna);
-};
-
-#endif // TABLERO_H
+void Tablero::moverFicha(Ficha* ficha, int nuevaFila, int nuevaColumna) {
+    // Logica para mover la ficha en la matriz
+    if (matriz.eliminarFicha(ficha->getFila(), ficha->getColumna())) {
+        if (matriz.agregarFicha(ficha, nuevaFila, nuevaColumna)) {
+            std::cout << "Ficha movida a (" << nuevaFila << ", " << nuevaColumna << ")." << std::endl;
+        } else {
+            std::cout << "No se pudo mover la ficha a (" << nuevaFila << ", " << nuevaColumna << ")." << std::endl;
+        }
+    } else {
+        std::cout << "No se pudo eliminar la ficha de la posicion anterior." << std::endl;
+    }
+}
